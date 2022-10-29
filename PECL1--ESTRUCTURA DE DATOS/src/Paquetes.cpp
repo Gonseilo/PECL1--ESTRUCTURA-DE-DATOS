@@ -9,7 +9,7 @@ using std::cout; using std::cin; using std::endl;
 int cont = 1;
 
 Paquetes::Paquetes(){
-
+    //ctor
 }
 
 Paquetes::~Paquetes(){
@@ -56,7 +56,6 @@ char* Paquetes::GenerarLatitud(){
     char latitud[] = "40 00 00";
     char num[] = "0123456789";
     int segundo;
-
     int minuto = rand() % 6;
 
     if (minuto == 0){
@@ -84,7 +83,6 @@ char* Paquetes::GenerarLongitud(){
     char longitud[] = "-3 00 00";
     char num[] = "0123456789";
     int segundo;
-
     int minuto = rand() % 10;
 
     if (minuto == 0){

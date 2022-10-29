@@ -17,4 +17,3 @@ class Colas{
 };
 
 #endif // COLAS_H
-
