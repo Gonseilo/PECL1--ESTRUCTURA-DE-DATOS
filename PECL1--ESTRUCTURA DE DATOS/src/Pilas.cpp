@@ -29,6 +29,6 @@ void Pilas::pop(Paquete* pila[]) {
     }
     else {
         top--;
-        cout << "Eliminando " << pila[top] << " de la pila..." << endl;
+        cout << "Eliminando " << pila[top]->informacion.codigoID << " de la pila..." << endl;
     }
 }
