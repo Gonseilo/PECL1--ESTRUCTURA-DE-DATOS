@@ -41,7 +41,7 @@
 	"Pilas.h"
 	"Muelles.h"
 
-1667060000 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
+1667063180 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
 	<iostream>
 	"stdio.h"
 	<locale.h>
@@ -50,13 +50,15 @@
 	"Colas.h"
 	"Pilas.h"
 	"Muelles.h"
+	<string.h>
 
 1667054328 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
 
 1667054020 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\colas.h
 	"Paquetes.h"
 
-1667058077 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\pilas.h
+1667062423 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\pilas.h
+	"Paquetes.h"
 
 1667060000 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\muelles.h
 
@@ -65,7 +67,7 @@
 	"Paquetes.h"
 	<iostream>
 
-1666979032 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\muelles.cpp
+1667060017 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\muelles.cpp
 	"Muelles.h"
 	<cstdlib>
 	<iostream>
@@ -73,14 +75,15 @@
 	"malloc.h"
 	"string.h"
 
-1667043071 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\paquetes.cpp
+1667064321 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\paquetes.cpp
 	"Paquetes.h"
 	<iostream>
 	"stdio.h"
 	<locale.h>
 	"string.h"
+	<random>
 
-1667058187 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\pilas.cpp
+1667062423 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\pilas.cpp
 	"Pilas.h"
 	<iostream>
 

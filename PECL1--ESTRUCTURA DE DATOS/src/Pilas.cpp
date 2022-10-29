@@ -13,29 +13,22 @@ Pilas::~Pilas(){
 
 int top = 0;
 
-void Pilas::push(int dato, int pila[]) {
+void Pilas::push(Paquete* dato, Paquete* pila[]) {
     if (top == N3){
         cout << "La pila está llena" << endl;
     }
     else {
         pila[top++] = dato;
-        cout << "Añadiendo " << dato << " a la pila..." << endl;
+        cout << "Añadiendo " << dato->informacion.codigoID << " a la pila..." << endl;
     }
 }
 
-void Pilas::pop(int pila[]) {
+void Pilas::pop(Paquete* pila[]) {
     if (top == 0){
         cout << "La pila está vacía";
     }
     else {
         top--;
         cout << "Eliminando " << pila[top] << " de la pila..." << endl;
-    }
-}
-
-void printPila (int pila[]){
-    while (top != 0){
-        cout << pila[top] << endl;
-        top--;
     }
 }

@@ -6,10 +6,13 @@
 #include "Colas.h"
 #include "Pilas.h"
 #include "Muelles.h"
+#include <string.h>
 
 using std::cout; using std::cin; using std::endl;
 
 Paquetes p;
+Muelles m;
+Pilas pi;
 int aux;
 
 Colas c1;
@@ -23,30 +26,34 @@ Paquete *rear2 = nullptr;
 Colas cNE;
 Paquete *headNE = nullptr;
 Paquete *rearNE = nullptr;
+char* NE = "NE";
 
 Colas cNO;
 Paquete *headNO = nullptr;
 Paquete *rearNO = nullptr;
+char* NO = "No";
 
 Colas cSE;
 Paquete *headSE = nullptr;
 Paquete *rearSE = nullptr;
+char* SE = "SE";
 
 Colas cSO;
 Paquete *headSO = nullptr;
 Paquete *rearSO = nullptr;
+char* SO = "SO";
 
-int muelleNE[N2];
-int topNE = 0;
+Pilas piNE;
+Paquete* muelleNE[N2];
 
-int muelleNO[N2];
-int topNO = 0;
+Pilas piNO;
+Paquete* muelleNO[N2];
 
-int muelleSE[N2];
-int topSE = 0;
+Pilas piSE;
+Paquete* muelleSE[N2];
 
-int muelleSO[N2];
-int topSO = 0;
+Pilas piSO;
+Paquete* muelleSO[N2];
 
 int main(){
     char* ptr;
@@ -106,8 +113,51 @@ int main(){
 
         for (int i = 0; i < N2; i++){
             ptr2 = c2.Dequeue(tempaux);
+            char* muelle = m.AsignarMuelle(ptr2->informacion.coordenadas.latitud, ptr2->informacion.coordenadas.longitud);
 
+            if (strcmp((muelle), "NO") == 0){
+                cout << "NO" << endl;
+                cNO.Enqueue(ptr2);
+                piNO.push(ptr2, muelleNO);
+                if (piNO.top == N3){
+                    for (int i = 0; i < N3 ; i++){
+                        piNO.pop(muelleNO);
+                    }
+                }
+            }
 
+            if (strcmp((muelle), "NE") == 0){
+                cout << "NE" << endl;
+                cNE.Enqueue(ptr2);
+                piNE.push(ptr2, muelleNE);
+                if (piNE.top == N3){
+                    for (int i = 0; i < N3 ; i++){
+                        piNE.pop(muelleNE);
+                    }
+                }
+            }
+
+            if (strcmp((muelle), "SO") == 0){
+                cout << "SO" << endl;
+                cSO.Enqueue(ptr2);
+                piSO.push(ptr2, muelleSO);
+                if (piSO.top == N3){
+                    for (int i = 0; i < N3 ; i++){
+                        piSO.pop(muelleSO);
+                    }
+                }
+            }
+
+            if (strcmp((muelle), "SE") == 0){
+                cout << "SE" << endl;
+                cSE.Enqueue(ptr2);
+                piSE.push(ptr2, muelleSE);
+                if (piSE.top == N3){
+                    for (int i = 0; i < N3 ; i++){
+                        piSE.pop(muelleSE);
+                    }
+                }
+            }
         }
 
         cout << "Introduzca 1 para repetir el proceso: ";
