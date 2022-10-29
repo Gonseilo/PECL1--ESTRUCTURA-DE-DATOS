@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1667033343 source:c:\users\ivanl\onedrive\escritorio\pecl1--eedd\src\colas.cpp
+	"Colas.h"
+	"Paquetes.h"
+	<iostream>
+
+1666979031 c:\users\ivanl\onedrive\escritorio\pecl1--eedd\include\colas.h
+	"Paquetes.h"
+
+1667040493 c:\users\ivanl\onedrive\escritorio\pecl1--eedd\include\paquetes.h
+
+1666979032 source:c:\users\ivanl\onedrive\escritorio\pecl1--eedd\src\muelles.cpp
+	"Muelles.h"
+	<cstdlib>
+	<iostream>
+	<malloc.h>
+	"malloc.h"
+	"string.h"
+
+1666979032 c:\users\ivanl\onedrive\escritorio\pecl1--eedd\include\muelles.h
+
+1667037798 source:c:\users\ivanl\onedrive\escritorio\pecl1--eedd\src\paquetes.cpp
+	"Paquetes.h"
+	<iostream>
+	"stdio.h"
+	<locale.h>
+	"string.h"
+
+1666979032 source:c:\users\ivanl\onedrive\escritorio\pecl1--eedd\src\pilas.cpp
+	"Pilas.h"
+
+1666979032 c:\users\ivanl\onedrive\escritorio\pecl1--eedd\include\pilas.h
+
+1667040552 source:c:\users\ivanl\onedrive\escritorio\pecl1--eedd\main.cpp
+	<iostream>
+	"stdio.h"
+	<locale.h>
+	"Paquetes.h"
+	<conio.h>
+	"Colas.h"
+	"Pilas.h"
+	"Muelles.h"
+
