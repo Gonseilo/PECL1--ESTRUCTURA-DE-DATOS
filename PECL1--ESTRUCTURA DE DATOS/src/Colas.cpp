@@ -42,3 +42,18 @@ void Colas::Print(Paquete *tempPrint){
         tempPrint = tempPrint->siguiente;
     }
 }
+
+Paquete* Colas::Dequeue(Paquete *temp){
+    temp = head;
+
+    if (head != nullptr){
+        if (head == rear){
+            head = rear = nullptr;
+        }
+        else{
+            head = temp->siguiente;
+        }
+    }
+
+    return temp;
+}

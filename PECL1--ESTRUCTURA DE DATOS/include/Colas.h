@@ -8,6 +8,7 @@ class Colas{
         virtual ~Colas();
         void Enqueue(Paquete*);
         void Print(Paquete*);
+        Paquete* Dequeue(Paquete*);
         Paquete* head;
         Paquete* rear;
 

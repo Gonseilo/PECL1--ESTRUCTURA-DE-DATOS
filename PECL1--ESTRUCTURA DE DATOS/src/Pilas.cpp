@@ -1,4 +1,7 @@
 #include "Pilas.h"
+#include <iostream>
+
+using std::cout; using std::cin; using std::endl;
 
 Pilas::Pilas(){
     //ctor
@@ -7,9 +10,11 @@ Pilas::Pilas(){
 Pilas::~Pilas(){
     //dtor
 }
-/*
-void push(int dato, int pila[]) {
-    if (top == limite){
+
+int top = 0;
+
+void Pilas::push(int dato, int pila[]) {
+    if (top == N3){
         cout << "La pila está llena" << endl;
     }
     else {
@@ -18,7 +23,7 @@ void push(int dato, int pila[]) {
     }
 }
 
-void pop(int pila[]) {
+void Pilas::pop(int pila[]) {
     if (top == 0){
         cout << "La pila está vacía";
     }
@@ -27,4 +32,10 @@ void pop(int pila[]) {
         cout << "Eliminando " << pila[top] << " de la pila..." << endl;
     }
 }
-*/
+
+void printPila (int pila[]){
+    while (top != 0){
+        cout << pila[top] << endl;
+        top--;
+    }
+}

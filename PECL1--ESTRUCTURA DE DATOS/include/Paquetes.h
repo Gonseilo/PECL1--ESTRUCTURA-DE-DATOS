@@ -1,6 +1,7 @@
 #ifndef PAQUETES_H
 #define PAQUETES_H
 #define N1 100
+#define N2 10
 
 struct CoordenadasGPS {
     char* latitud;

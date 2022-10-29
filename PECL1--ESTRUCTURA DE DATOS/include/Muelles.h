@@ -5,7 +5,7 @@ class Muelles{
     public:
         Muelles();
         virtual ~Muelles();
-        char * AsignarMuelle(char*, char*);
+        char* AsignarMuelle(char*, char*);
 
     protected:
 

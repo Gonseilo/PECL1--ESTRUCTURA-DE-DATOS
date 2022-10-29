@@ -15,7 +15,7 @@ Muelles::~Muelles(){
     //dtor
 }
 
-char* Muelles::AsignarMuelle(char latitud[], char longitud[]){
+char* Muelles::AsignarMuelle(char* latitud, char* longitud){
     char muelle[] = "NO";
     int minlat = (latitud[3] - '0') * 10 + (latitud[4] - '0');
     int seglat = (latitud[6] - '0') * 10 + (latitud[7] - '0');
