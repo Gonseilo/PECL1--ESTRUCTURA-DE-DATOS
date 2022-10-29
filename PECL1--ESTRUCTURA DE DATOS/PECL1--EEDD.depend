@@ -75,13 +75,12 @@
 	"malloc.h"
 	"string.h"
 
-1667064321 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\paquetes.cpp
+1667065439 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\paquetes.cpp
 	"Paquetes.h"
 	<iostream>
 	"stdio.h"
 	<locale.h>
 	"string.h"
-	<random>
 
 1667062423 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\pilas.cpp
 	"Pilas.h"

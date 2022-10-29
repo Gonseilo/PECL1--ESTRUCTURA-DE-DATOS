@@ -7,6 +7,8 @@
 #include "Pilas.h"
 #include "Muelles.h"
 #include <string.h>
+#include <cstdlib>
+#include <ctime>
 
 using std::cout; using std::cin; using std::endl;
 
@@ -56,6 +58,9 @@ Pilas piSO;
 Paquete* muelleSO[N2];
 
 int main(){
+    time_t current_time = time(NULL);
+    srand((unsigned) time(NULL));
+
     char* ptr;
     Paquete* ptr2;
 
