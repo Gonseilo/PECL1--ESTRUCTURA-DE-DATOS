@@ -12,28 +12,28 @@ Colas::~Colas(){
     //dtor
 }
 
-Paquete *head1 = nullptr;
-Paquete *rear1 = nullptr;
+Paquete *head = nullptr;
+Paquete *rear = nullptr;
 
 void Colas::Enqueue(Paquete *temp){
     temp->siguiente = nullptr;
 
-    if (head1 == nullptr && rear1 == nullptr){
-        head1 = rear1 = temp;
+    if (head == nullptr && rear == nullptr){
+        head = rear = temp;
     }
     else{
-        rear1->siguiente = temp;
-        rear1 = temp;
+        rear->siguiente = temp;
+        rear = temp;
     }
 }
 
 void Colas::Print(Paquete *tempPrint){
     int cont =1;
-    tempPrint = head1;
+    tempPrint = head;
 
     cout<<"Tu cola es :"<<endl;
     while(tempPrint != nullptr){
-        cout<<" Paquete "<<cont<<endl;
+        cout<<"Paquete "<<cont<<endl;
         cout<<tempPrint->informacion.codigoID<<endl;
         cout<<tempPrint->informacion.coordenadas.latitud<<endl;
         cout<<tempPrint->informacion.coordenadas.longitud<<endl;

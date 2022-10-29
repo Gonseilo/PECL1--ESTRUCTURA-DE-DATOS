@@ -10,11 +10,15 @@
 using std::cout; using std::cin; using std::endl;
 
 Paquete *tempPrint1 = nullptr;
-Colas c;
+Colas c1;
 Paquetes p;
+Paquete *head1 = nullptr;
+Paquete *rear1 = nullptr;
 
 int main(){
     char* ptr;
+    c1.head = head1;
+    c1.rear = rear1;
 
     for (int j=0;j<N1;j++){
         Paquete *temp = new Paquete();
@@ -31,9 +35,9 @@ int main(){
         ptr = p.GenerarDNI();
         temp->informacion.DNI = ptr;
 
-        c.Enqueue(temp);
+        c1.Enqueue(temp);
     }
-    c.Print(tempPrint1);
+    c1.Print(tempPrint1);
     delete[] ptr;
 
     getch();
