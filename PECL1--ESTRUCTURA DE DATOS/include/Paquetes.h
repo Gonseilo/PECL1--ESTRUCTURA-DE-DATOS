@@ -28,9 +28,25 @@ class Paquetes{
         char * GenerarLatitud();
         char * GenerarLongitud();
         char * GenerarDNI();
+        void setCodigoID(char*);
+        void setLatitud(char*);
+        void setLongitud(char*);
+        void setDNI(char*);
+        char* getCodigoID();
+        char* getLatitud();
+        char* getLongitud();
+        char* getDNI();
 
     protected:
     private:
+<<<<<<< Updated upstream
+=======
+        char *codigoID;
+        char *latitud;
+        char *longitud;
+        char *DNI;
+
+>>>>>>> Stashed changes
 };
 
 #endif // PAQUETES_H

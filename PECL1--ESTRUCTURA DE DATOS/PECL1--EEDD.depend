@@ -85,17 +85,17 @@
 	"Pilas.h"
 	<iostream>
 
-1667064367 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\colas.cpp
+1667124949 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\colas.cpp
 	"Colas.h"
 	"Paquetes.h"
 	<iostream>
 
-1667064367 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\colas.h
+1667060767 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\colas.h
 	"Paquetes.h"
 
-1667064367 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
+1667125640 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
 
-1667064367 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\muelles.cpp
+1667060767 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\muelles.cpp
 	"Muelles.h"
 	<cstdlib>
 	<iostream>
@@ -103,32 +103,29 @@
 	"malloc.h"
 	"string.h"
 
-1667064367 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\muelles.h
+1667060767 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\muelles.h
 
-1667046989 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\paquetes.cpp
+1667125667 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\paquetes.cpp
 	"Paquetes.h"
 	<iostream>
 	"stdio.h"
 	<locale.h>
 	"string.h"
 
-1667064383 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\pilas.cpp
+1667074584 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\pilas.cpp
 	"Pilas.h"
 	<iostream>
 
-1667064383 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\pilas.h
+1667060783 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\pilas.h
 	"Paquetes.h"
 
-1667065585 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
+1667125131 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
 	<iostream>
-	"stdio.h"
-	<locale.h>
-	"Paquetes.h"
 	<conio.h>
+	<string.h>
+	<ctime>
+	"Paquetes.h"
 	"Colas.h"
 	"Pilas.h"
 	"Muelles.h"
-	<string.h>
-	<cstdlib>
-	<ctime>
 

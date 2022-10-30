@@ -119,3 +119,44 @@ char* Paquetes::GenerarDNI(){
 
     return str;
 }
+
+void Paquetes::setCodigoID(char* _codigoID)
+{
+    codigoID = _codigoID;
+}
+
+void Paquetes::setLatitud(char* _latitud)
+{
+    latitud = _latitud;
+}
+
+void Paquetes::setLongitud(char* _longitud)
+{
+    longitud = _longitud;
+}
+
+void Paquetes::setDNI(char* _DNI)
+{
+    DNI = _DNI;
+}
+
+
+char* Paquetes::getCodigoID()
+{
+    return codigoID;
+}
+
+char* Paquetes::getLatitud()
+{
+    return latitud;
+}
+
+char* Paquetes::getLongitud()
+{
+    return longitud;
+}
+
+char* Paquetes::getDNI()
+{
+    return DNI;
+}

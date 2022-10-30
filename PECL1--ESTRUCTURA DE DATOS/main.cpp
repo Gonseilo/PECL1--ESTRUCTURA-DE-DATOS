@@ -43,10 +43,17 @@ int main(){
     for (int i=0;i<N1;i++){
         Paquete *temp = new Paquete();
 
-        temp->informacion.codigoID = p.GenerarID();
-        temp->informacion.coordenadas.latitud = p.GenerarLatitud();
-        temp->informacion.coordenadas.longitud = p.GenerarLongitud();
-        temp->informacion.DNI = p.GenerarDNI();
+        p.setCodigoID(p.GenerarID());
+        temp->informacion.codigoID = p.getCodigoID();
+
+        p.setLatitud(p.GenerarLatitud());
+        temp->informacion.coordenadas.latitud = p.getLatitud();
+
+        p.setLongitud(p.GenerarLongitud());
+        temp->informacion.coordenadas.longitud = p.getLongitud();
+
+        p.setDNI(p.GenerarDNI());
+        temp->informacion.DNI = p.getDNI();
 
         c1.Enqueue(temp);
     }
