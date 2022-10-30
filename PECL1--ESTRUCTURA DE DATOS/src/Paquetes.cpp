@@ -1,7 +1,5 @@
-#include "Paquetes.h"
 #include <iostream>
-#include "stdio.h"
-#include <locale.h>
+#include "Paquetes.h"
 #include "string.h"
 
 using std::cout; using std::cin; using std::endl;
@@ -17,17 +15,12 @@ Paquetes::~Paquetes(){
 }
 
 char* Paquetes::GenerarID(){
-    int counter = cont;
     char ID[] = "00a0000";
     char letter[] = "abcdefghijklmnopqrstuvwxyz";
     char numbers[] = "0123456789";
     int num1, num2, num3, num4;
     int contaux;
-    num1 = 0;
-    num2 = 0;
-    num3 = 0;
-    num4 = 0;
-    contaux = counter;
+    contaux = cont;
     cont++;
 
     num1 = contaux / 1000;
@@ -59,13 +52,13 @@ char* Paquetes::GenerarLatitud(){
     int minuto = rand() % 6;
 
     if (minuto == 0){
-        int segundo = (rand() % 54) + 6;
+        segundo = (rand() % 54) + 6;
     }
     if (0 < minuto && minuto < 5){
-        int segundo = rand() % 60;
+        segundo = rand() % 60;
     }
     if (minuto == 5){
-        int segundo = rand() % 7;
+        segundo = rand() % 7;
     }
 
     latitud[3] = num[(minuto + 46) / 10];
@@ -86,13 +79,13 @@ char* Paquetes::GenerarLongitud(){
     int minuto = rand() % 10;
 
     if (minuto == 0){
-        int segundo = (rand() % 57) + 3;
+        segundo = (rand() % 57) + 3;
     }
     if (0 < minuto && minuto < 9){
-        int segundo = rand() % 60;
+        segundo = rand() % 60;
     }
     if (minuto == 9){
-        int segundo = rand() % 2;
+        segundo = rand() % 2;
     }
 
     longitud[3] = num[(minuto + 32) / 10];

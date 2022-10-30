@@ -24,10 +24,10 @@ class Paquetes{
         Paquetes();
         virtual ~Paquetes();
         int counter;
-        char * GenerarID();
-        char * GenerarLatitud();
-        char * GenerarLongitud();
-        char * GenerarDNI();
+        char* GenerarID();
+        char* GenerarLatitud();
+        char* GenerarLongitud();
+        char* GenerarDNI();
         void setCodigoID(char*);
         void setLatitud(char*);
         void setLongitud(char*);
@@ -39,13 +39,10 @@ class Paquetes{
 
     protected:
     private:
-
-        char *codigoID;
-        char *latitud;
-        char *longitud;
-        char *DNI;
-
-
+        char* codigoID;
+        char* latitud;
+        char* longitud;
+        char* DNI;
 };
 
 #endif // PAQUETES_H

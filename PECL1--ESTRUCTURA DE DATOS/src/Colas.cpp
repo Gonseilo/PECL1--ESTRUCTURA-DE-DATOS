@@ -1,6 +1,6 @@
+#include <iostream>
 #include "Colas.h"
 #include "Paquetes.h"
-#include <iostream>
 
 using std::cout; using std::endl;
 

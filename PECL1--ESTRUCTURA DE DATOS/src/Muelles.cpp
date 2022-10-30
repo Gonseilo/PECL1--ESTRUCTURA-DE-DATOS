@@ -1,11 +1,6 @@
-#include "Muelles.h"
-#include <cstdlib>
 #include <iostream>
-#include <malloc.h>
-#include "malloc.h"
+#include "Muelles.h"
 #include "string.h"
-
-using std::cout; using std::cin; using std::endl;
 
 Muelles::Muelles(){
     //ctor
