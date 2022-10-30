@@ -3,9 +3,9 @@
 
 class Muelles{
     public:
-        Muelles();
-        virtual ~Muelles();
-        char* AsignarMuelle(char*, char*);
+        Muelles(); //ctor
+        virtual ~Muelles(); //dtor
+        char* AsignarMuelle(char*, char*); //Declaramos la función AsignarMuelle que nos indicará a que muelle tiene que ir el paquete en base a sus coordenadas
 
     protected:
     private:
