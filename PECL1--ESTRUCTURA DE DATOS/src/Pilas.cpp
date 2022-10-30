@@ -40,3 +40,5 @@ void Pilas::print(Paquete* pila[]) { //Función print para imprimir todos los val
     }
     cout << "||==================================================================||" << endl; //Parte inferior de la tabla
 }
+//
+

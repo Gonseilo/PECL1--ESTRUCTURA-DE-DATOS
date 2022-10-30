@@ -19,5 +19,7 @@ class Colas{
 
     private:
 };
+//
+
 
 #endif // COLAS_H
