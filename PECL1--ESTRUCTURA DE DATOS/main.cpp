@@ -3,12 +3,13 @@
 #include <string.h>
 #include <ctime>
 #include <stdio.h>
+#include <iomanip>
 #include "Paquetes.h"
 #include "Colas.h"
 #include "Pilas.h"
 #include "Muelles.h"
 
-using std::cout; using std::cin; using std::endl;
+using std::cout; using std::cin; using std::endl; using std::setw;
 
 Paquetes p;
 Muelles m;
@@ -31,6 +32,10 @@ char* NE = "NE";
 char* NO = "NO";
 char* SE = "SE";
 char* SO = "SO";
+int contNO;
+int contNE;
+int contSO;
+int contSE;
 
 Paquete* muelleNE[N2];
 Paquete* muelleNO[N2];
@@ -65,12 +70,12 @@ int main(){
     c1.Print(tempaux);
 
     while ((c1.head != nullptr) && (c1.rear != nullptr)) {
-        cout << "\nSeleccionando 10 paquetes de la central...\n\n" << endl;
+        cout << "\nSeleccionando " << N2 << " paquetes de la central...\n\n" << endl;
         for (int i=0; i < N2; i++){
             c2.Enqueue(c1.Dequeue(tempaux));
         }
         c2.Print(tempaux);
-        cout << "===================||ESTADO DE SALIDA DE LAS FURGONETAS||=================\n" << endl;
+        cout << "===================||ESTADO DE SALIDA DE LAS FURGONETAS||=================\n\n" << endl;
 
         for (int i = 0; i < N2; i++){
             tempaux = c2.Dequeue(tempaux);
@@ -80,8 +85,9 @@ int main(){
                 cNOaux.Enqueue(tempaux);
                 piNO.push(tempaux, muelleNO);
                 if (piNO.top == N3){
-                    cout << "=======================Sale furgoneta del muelle NO=================>>>>>>" << endl;
-                    cout << "<<<<<<===============Llega nueva furgoneta al muelle NO===================\n"<<endl;
+                    contNO++;
+                    cout << "======================Sale furgoneta " << contNO << " del muelle NO================>>>>>>" << endl;
+                    cout << "<<<<<<================Llega furgoneta " << contNO + 1 << " al muelle NO======================\n"<<endl;
                     for (int i = 0; i < N3 ; i++){
                         cNO.Enqueue(cNOaux.Dequeue(tempaux));
                         piNO.pop(muelleNO);
@@ -93,8 +99,9 @@ int main(){
                 cNEaux.Enqueue(tempaux);
                 piNE.push(tempaux, muelleNE);
                 if (piNE.top == N3){
-                    cout << "=======================Sale furgoneta del muelle NE=================>>>>>>" << endl;
-                    cout << "<<<<<<===============Llega nueva furgoneta al muelle NE===================\n"<<endl;
+                    contNE++;
+                    cout << "======================Sale furgoneta " << contNE << " del muelle NE================>>>>>>" << endl;
+                    cout << "<<<<<<================Llega furgoneta " << contNE + 1 << " al muelle NE======================\n"<<endl;
                     for (int i = 0; i < N3 ; i++){
                         cNE.Enqueue(cNEaux.Dequeue(tempaux));
                         piNE.pop(muelleNE);
@@ -106,9 +113,9 @@ int main(){
                 cSOaux.Enqueue(tempaux);
                 piSO.push(tempaux, muelleSO);
                 if (piSO.top == N3){
-                    cout << "=======================Sale furgoneta del muelle SO=================>>>>>>" << endl;
-                    cout << "<<<<<<===============Llega nueva furgoneta al muelle SO===================\n"<<endl;
-
+                    contSO++;
+                    cout << "======================Sale furgoneta " << contSO << " del muelle SO================>>>>>>" << endl;
+                    cout << "<<<<<<================Llega furgoneta " << contSO + 1 << " al muelle SO======================\n"<<endl;
                     for (int i = 0; i < N3 ; i++){
                         cSO.Enqueue(cSOaux.Dequeue(tempaux));
                         piSO.pop(muelleSO);
@@ -120,8 +127,9 @@ int main(){
                 cSEaux.Enqueue(tempaux);
                 piSE.push(tempaux, muelleSE);
                 if (piSE.top == N3){
-                    cout << "=======================Sale furgoneta del muelle SE=================>>>>>>" << endl;
-                    cout << "<<<<<<===============Llega nueva furgoneta al muelle SE===================\n"<<endl;
+                    contSE++;
+                    cout << "======================Sale furgoneta " << contSE << " del muelle SE================>>>>>>" << endl;
+                    cout << "<<<<<<================Llega furgoneta " << contSE + 1 << " al muelle SE======================\n"<<endl;
                     for (int i = 0; i < N3 ; i++){
                         cSE.Enqueue(cSEaux.Dequeue(tempaux));
                         piSE.pop(muelleSE);
@@ -130,7 +138,7 @@ int main(){
                 }
             }
         }
-        cout<<"\n\n\n\n\n"<<endl;
+        cout<<"\n==========================================================================\n"<<endl;
         int x = 0;
         while (x == 0) {
             char respuesta[1];
@@ -167,6 +175,10 @@ int main(){
                 cSE.PrintEnviado(tempaux);
                 break;
             case '3':
+                if (c1.head == nullptr){
+                    cout << "\n\n*****No se pueden seleccionar más paquetes de la central, por favor seleccione otra opción.*****\n" << endl;
+                    break;
+                }
                 x = 1;
                 break;
             default:
@@ -174,6 +186,14 @@ int main(){
             }
         }
     }
+
+    cout << "\n||====================================================||" << endl;
+    cout << "||" << setw(20) << "Informe estadístico" << setw(5) << "|" << setw(4) << "NO" << setw(3) << "|" << setw(4) << "NE" << setw(3) << "|" << setw(4) << "SO" << setw(3) << "|" << setw(4) << "SE" << setw(4) << "||" << endl;
+    cout << "||------------------------|------|------|------|------||" << endl;
+    cout << "||" << setw(19) << "Paquetes enviados:" << setw(6) << "|" << setw(4) << cNO.recorrerCola(tempaux) << setw(3) << "|" << setw(4) << cNE.recorrerCola(tempaux) << setw(3) << "|" << setw(4) << cSO.recorrerCola(tempaux) << setw(3) << "|" << setw(4) << cSE.recorrerCola(tempaux) << setw(4) << "||" << endl;
+    cout << "||" << setw(21) << "Paquetes sin enviar:" << setw(4) << "|" << setw(4) << piNO.top << setw(3) << "|" << setw(4) << piNE.top << setw(3) << "|" << setw(4) << piSO.top << setw(3) << "|" << setw(4) << piSE.top << setw(4) << "||" << endl;
+    cout << "||" << setw(23) << "Furgonetas utilizadas:" << setw(2) << "|" << setw(4) << contNO << setw(3) << "|" << setw(4) << contNE << setw(3) << "|" << setw(4) << contSO << setw(3) << "|" << setw(4) << contSE << setw(4) << "||" << endl;
+    cout << "||====================================================||\n" << endl;
     cout << "Fin del proceso." << endl;
 
     getch();

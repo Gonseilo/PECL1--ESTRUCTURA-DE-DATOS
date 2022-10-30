@@ -41,20 +41,21 @@
 	"Pilas.h"
 	"Muelles.h"
 
-1667137419 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
+1667158199 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
 	<iostream>
 	<conio.h>
 	<string.h>
 	<ctime>
 	<stdio.h>
+	<iomanip>
 	"Paquetes.h"
 	"Colas.h"
 	"Pilas.h"
 	"Muelles.h"
 
-1667126295 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
+1667158533 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
 
-1667133471 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\colas.h
+1667154969 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\colas.h
 	"Paquetes.h"
 
 1667150180 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\pilas.h
@@ -62,13 +63,13 @@
 
 1667150730 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\muelles.h
 
-1667133527 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\colas.cpp
+1667155103 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\colas.cpp
 	<iostream>
 	<iomanip>
 	"Colas.h"
 	"Paquetes.h"
 
-1667148930 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\muelles.cpp
+1667150730 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\muelles.cpp
 	<iostream>
 	"Muelles.h"
 	"string.h"
@@ -78,7 +79,7 @@
 	"Paquetes.h"
 	"string.h"
 
-1667150180 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\pilas.cpp
+1667150811 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\pilas.cpp
 	<iostream>
 	<iomanip>
 	"Pilas.h"

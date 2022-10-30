@@ -29,7 +29,7 @@ void Colas::Enqueue(Paquete *temp){
     }
 }
 
-void Colas::Print(Paquete *temp){
+void Colas::Print(Paquete* temp){
     temp = head;
 
     cout << "||==================================================================||" << endl;
@@ -43,7 +43,7 @@ void Colas::Print(Paquete *temp){
     cout << "||==================================================================||\n\n" << endl;
 }
 
-void Colas::PrintEnviado(Paquete *temp){
+void Colas::PrintEnviado(Paquete* temp){
     temp = head;
 
     cout << "||==================================================================||" << endl;
@@ -56,7 +56,7 @@ void Colas::PrintEnviado(Paquete *temp){
     cout << "||==================================================================||\n\n" << endl;
 }
 
-Paquete* Colas::Dequeue(Paquete *temp){
+Paquete* Colas::Dequeue(Paquete* temp){
     temp = head;
 
     if (head != nullptr && head == rear){
@@ -66,4 +66,15 @@ Paquete* Colas::Dequeue(Paquete *temp){
         head = temp->siguiente;
     }
     return temp;
+}
+
+int Colas::recorrerCola(Paquete* temp){
+    int cont = 0;
+    temp = head;
+
+    while(temp != nullptr){
+        cont++;
+        temp = temp->siguiente;
+    }
+    return cont;
 }

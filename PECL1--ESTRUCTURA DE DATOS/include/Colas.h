@@ -9,6 +9,7 @@ class Colas{
         void Enqueue(Paquete*);
         void Print(Paquete*);
         void PrintEnviado(Paquete*);
+        int recorrerCola(Paquete*);
         Paquete* Dequeue(Paquete*);
         Paquete* head;
         Paquete* rear;
