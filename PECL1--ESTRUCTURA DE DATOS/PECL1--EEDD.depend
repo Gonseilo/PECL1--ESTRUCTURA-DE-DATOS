@@ -41,7 +41,7 @@
 	"Pilas.h"
 	"Muelles.h"
 
-1667137090 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
+1667137419 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
 	<iostream>
 	<conio.h>
 	<string.h>
@@ -68,7 +68,7 @@
 	"Colas.h"
 	"Paquetes.h"
 
-1667126360 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\muelles.cpp
+1667148930 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\muelles.cpp
 	<iostream>
 	"Muelles.h"
 	"string.h"

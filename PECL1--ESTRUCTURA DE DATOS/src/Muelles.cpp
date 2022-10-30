@@ -18,14 +18,16 @@ char* Muelles::AsignarMuelle(char* latitud, char* longitud){
     int seglon = (longitud[6] - '0') * 10 + (longitud[7] - '0');
 
     if (minlat <= 48){
-        if (seglat <= 35){
-            muelle[0] = 'S';
+        muelle[0] = 'S';
+        if (minlat == 48 && seglat >= 35){
+            muelle[0] = 'N';
         }
     }
 
     if (minlon <= 36){
-        if (seglon <= 31){
-            muelle[1] = 'E';
+        muelle[1] = 'E';
+        if (minlon == 36 && seglon >= 31){
+            muelle[1] = 'O';
         }
     }
 
