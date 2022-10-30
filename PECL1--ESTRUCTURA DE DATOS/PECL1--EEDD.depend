@@ -41,18 +41,15 @@
 	"Pilas.h"
 	"Muelles.h"
 
-1667061912 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
+1667124672 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
 	<iostream>
-	"stdio.h"
-	<locale.h>
-	"Paquetes.h"
 	<conio.h>
+	<string.h>
+	<ctime>
+	"Paquetes.h"
 	"Colas.h"
 	"Pilas.h"
 	"Muelles.h"
-	<string.h>
-	<cstdlib>
-	<ctime>
 
 1667050728 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
 
