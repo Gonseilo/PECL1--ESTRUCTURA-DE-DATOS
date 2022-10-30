@@ -61,6 +61,8 @@ int main(){
     time_t current_time = time(NULL);
     srand((unsigned) time(NULL));
 
+    setlocale(LC_ALL, "spanish");
+
     char* ptr;
     Paquete* ptr2;
 
@@ -174,7 +176,7 @@ int main(){
             c1.head = nullptr;
         }
     }
-    cout << "fin del proceso" << endl;
+    cout << "Fin del proceso." << endl;
 
     getch();
     return 0;
