@@ -93,7 +93,7 @@
 1667060767 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\colas.h
 	"Paquetes.h"
 
-1667125640 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
+1667126107 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
 
 1667060767 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\muelles.cpp
 	"Muelles.h"
@@ -103,7 +103,7 @@
 	"malloc.h"
 	"string.h"
 
-1667060767 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\muelles.h
+1667126023 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\muelles.h
 
 1667125667 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\paquetes.cpp
 	"Paquetes.h"
@@ -116,7 +116,7 @@
 	"Pilas.h"
 	<iostream>
 
-1667060783 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\pilas.h
+1667126023 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\pilas.h
 	"Paquetes.h"
 
 1667125131 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp

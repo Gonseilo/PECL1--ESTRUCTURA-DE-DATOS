@@ -39,14 +39,13 @@ class Paquetes{
 
     protected:
     private:
-<<<<<<< Updated upstream
-=======
+
         char *codigoID;
         char *latitud;
         char *longitud;
         char *DNI;
 
->>>>>>> Stashed changes
+
 };
 
 #endif // PAQUETES_H
