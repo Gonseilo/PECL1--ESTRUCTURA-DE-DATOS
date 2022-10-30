@@ -13,7 +13,6 @@ class Colas{
         Paquete* rear;
 
     protected:
-
     private:
 };
 

@@ -8,7 +8,6 @@ class Muelles{
         char* AsignarMuelle(char*, char*);
 
     protected:
-
     private:
 };
 

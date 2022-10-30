@@ -41,7 +41,7 @@
 	"Pilas.h"
 	"Muelles.h"
 
-1667124672 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
+1667124796 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
 	<iostream>
 	<conio.h>
 	<string.h>
@@ -51,17 +51,17 @@
 	"Pilas.h"
 	"Muelles.h"
 
-1667050728 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
+1667125126 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
 
-1667050420 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\colas.h
+1667125126 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\colas.h
 	"Paquetes.h"
 
-1667058823 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\pilas.h
+1667125126 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\pilas.h
 	"Paquetes.h"
 
-1667056400 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\muelles.h
+1667125126 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\muelles.h
 
-1667122332 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\colas.cpp
+1667125037 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\colas.cpp
 	"Colas.h"
 	"Paquetes.h"
 	<iostream>

@@ -30,9 +30,7 @@ class Paquetes{
         char * GenerarDNI();
 
     protected:
-
     private:
-
 };
 
 #endif // PAQUETES_H

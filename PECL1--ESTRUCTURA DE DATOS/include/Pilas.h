@@ -12,7 +12,6 @@ class Pilas{
         virtual ~Pilas();
 
     protected:
-
     private:
 };
 
