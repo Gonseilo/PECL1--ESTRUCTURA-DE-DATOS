@@ -41,11 +41,12 @@
 	"Pilas.h"
 	"Muelles.h"
 
-1667126053 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
+1667136678 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
 	<iostream>
 	<conio.h>
 	<string.h>
 	<ctime>
+	<stdio.h>
 	"Paquetes.h"
 	"Colas.h"
 	"Pilas.h"
@@ -53,16 +54,17 @@
 
 1667126295 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
 
-1667125126 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\colas.h
+1667133471 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\colas.h
 	"Paquetes.h"
 
-1667125126 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\pilas.h
+1667133174 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\pilas.h
 	"Paquetes.h"
 
 1667125126 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\include\muelles.h
 
-1667126360 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\colas.cpp
+1667133527 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\colas.cpp
 	<iostream>
+	<iomanip>
 	"Colas.h"
 	"Paquetes.h"
 
@@ -71,14 +73,15 @@
 	"Muelles.h"
 	"string.h"
 
-1667126540 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\paquetes.cpp
+1667129091 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\paquetes.cpp
 	<iostream>
 	"Paquetes.h"
 	"string.h"
 
-1667122334 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\pilas.cpp
-	"Pilas.h"
+1667133277 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura de datos\src\pilas.cpp
 	<iostream>
+	<iomanip>
+	"Pilas.h"
 
 1667124949 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\colas.cpp
 	"Colas.h"

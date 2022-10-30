@@ -8,11 +8,14 @@ class Colas{
         virtual ~Colas();
         void Enqueue(Paquete*);
         void Print(Paquete*);
+        void PrintEnviado(Paquete*);
         Paquete* Dequeue(Paquete*);
         Paquete* head;
         Paquete* rear;
+        int contCola;
 
     protected:
+
     private:
 };
 

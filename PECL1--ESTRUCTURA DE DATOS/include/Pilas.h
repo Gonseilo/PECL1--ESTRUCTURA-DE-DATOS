@@ -9,6 +9,7 @@ class Pilas{
         int top;
         void push(Paquete*, Paquete*[]);
         void pop(Paquete*[]);
+        void print(Paquete*[]);
         virtual ~Pilas();
 
     protected:
