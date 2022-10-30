@@ -70,6 +70,7 @@ int main(){
             c2.Enqueue(c1.Dequeue(tempaux));
         }
         c2.Print(tempaux);
+        cout << "==================ESTADO DE SALIDA DE LAS FURGONETAS==================\n" << endl;
 
         for (int i = 0; i < N2; i++){
             tempaux = c2.Dequeue(tempaux);
@@ -79,7 +80,7 @@ int main(){
                 cNOaux.Enqueue(tempaux);
                 piNO.push(tempaux, muelleNO);
                 if (piNO.top == N3){
-                    cout << "=====================Sale furgoneta del muelle NO=====================\n" << endl;
+                    cout << "=====================Sale furgoneta del muelle NO=====================" << endl;
                     for (int i = 0; i < N3 ; i++){
                         cNO.Enqueue(cNOaux.Dequeue(tempaux));
                         piNO.pop(muelleNO);
@@ -91,7 +92,7 @@ int main(){
                 cNEaux.Enqueue(tempaux);
                 piNE.push(tempaux, muelleNE);
                 if (piNE.top == N3){
-                    cout << "=====================Sale furgoneta del muelle NE=====================\n" << endl;
+                    cout << "=====================Sale furgoneta del muelle NE=====================" << endl;
                     for (int i = 0; i < N3 ; i++){
                         cNE.Enqueue(cNEaux.Dequeue(tempaux));
                         piNE.pop(muelleNE);
@@ -103,7 +104,7 @@ int main(){
                 cSOaux.Enqueue(tempaux);
                 piSO.push(tempaux, muelleSO);
                 if (piSO.top == N3){
-                    cout << "=====================Sale furgoneta del muelle SO=====================\n" << endl;
+                    cout << "=====================Sale furgoneta del muelle SO=====================" << endl;
                     for (int i = 0; i < N3 ; i++){
                         cSO.Enqueue(cSOaux.Dequeue(tempaux));
                         piSO.pop(muelleSO);
@@ -115,7 +116,7 @@ int main(){
                 cSEaux.Enqueue(tempaux);
                 piSE.push(tempaux, muelleSE);
                 if (piSE.top == N3){
-                    cout << "=====================Sale furgoneta del muelle SE=====================\n" << endl;
+                    cout << "=====================Sale furgoneta del muelle SE=====================" << endl;
                     for (int i = 0; i < N3 ; i++){
                         cSE.Enqueue(cSEaux.Dequeue(tempaux));
                         piSE.pop(muelleSE);
@@ -126,7 +127,7 @@ int main(){
         int x = 0;
         while (x == 0) {
             char respuesta[1];
-            cout << "¿Qué desea hacer?" << endl;
+            cout << "\n¿Qué desea hacer?" << endl;
             cout << "0: Finalizar proceso." << endl;
             cout << "1: Ver el estado actual de las furgonetas." << endl;
             cout << "2: Ver los paquetes enviados a cada zona." << endl;
