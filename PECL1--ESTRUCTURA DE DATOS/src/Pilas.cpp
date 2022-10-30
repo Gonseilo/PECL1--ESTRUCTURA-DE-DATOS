@@ -28,6 +28,7 @@ void Pilas::pop(Paquete* pila[]) { //Función pop para sacar el último dato que s
     else { //Si en la pila hay algún valor:
         top--; //Bajamos el top para omitir el último valor que se introdujo en la pila
     }
+
 }
 
 void Pilas::print(Paquete* pila[]) { //Función print para imprimir todos los valores de la pila compuesta de punteros a paquetes en forma de tabla

@@ -83,38 +83,35 @@
 	<iomanip>
 	"Pilas.h"
 
-1667124949 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\colas.cpp
+1667137156 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\colas.cpp
+	<iostream>
+	<iomanip>
 	"Colas.h"
 	"Paquetes.h"
-	<iostream>
 
-1667060767 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\colas.h
+1667137156 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\colas.h
 	"Paquetes.h"
 
-1667126107 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
+1667126635 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
 
-1667060767 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\muelles.cpp
-	"Muelles.h"
-	<cstdlib>
+1667126635 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\muelles.cpp
 	<iostream>
-	<malloc.h>
-	"malloc.h"
+	"Muelles.h"
 	"string.h"
 
 1667126023 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\muelles.h
 
-1667125667 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\paquetes.cpp
-	"Paquetes.h"
+1667126635 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\paquetes.cpp
 	<iostream>
-	"stdio.h"
-	<locale.h>
+	"Paquetes.h"
 	"string.h"
 
-1667074584 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\pilas.cpp
-	"Pilas.h"
+1667149582 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\pilas.cpp
 	<iostream>
+	<iomanip>
+	"Pilas.h"
 
-1667126023 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\pilas.h
+1667137156 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\pilas.h
 	"Paquetes.h"
 
 1667125131 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
