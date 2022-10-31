@@ -15,14 +15,15 @@ Paquetes::~Paquetes(){
 }
 
 char* Paquetes::GenerarID(){
-    char ID[] = "00a0000";
-    char letter[] = "abcdefghijklmnopqrstuvwxyz";
-    char numbers[] = "0123456789";
+    char ID[] = "00a0000"; //Definimos el formato del array del codigoID.
+    char letter[] = "abcdefghijklmnopqrstuvwxyz"; //Definimos un array que almacene el abcedario
+    char numbers[] = "0123456789"; //Definimos un array que almacene los numeros usados
     int num1, num2, num3, num4;
     int contaux;
     contaux = cont;
     cont++;
 
+    //Separamos un numero de 4 cifras en 4 numeros.
     num1 = contaux / 1000;
     contaux -= num1 * 1000;
     num2 = contaux / 100;
@@ -31,6 +32,7 @@ char* Paquetes::GenerarID(){
     contaux -= num3 * 10;
     num4 = contaux;
 
+    //Creamos de forma aleatoria con la función rand() en cada posición del array lop que corresponda.
     ID[0] = numbers[rand() % 10];
     ID[1] = numbers[rand() % 10];
     ID[2] = letter[rand() % 26];
@@ -39,13 +41,14 @@ char* Paquetes::GenerarID(){
     ID[5] = numbers[num3];
     ID[6] = numbers[num4];
 
-    char *str = new char[7];
-    memcpy(str,ID,7);
+    char *str = new char[7]; //Reservamos memoria con un espacio suficiente para almacenar el array de codigoID.
+    memcpy(str,ID,7); //Copiamos la información del array de ID en ese espacio reservado y que esta apuntado por str.
 
-    return str;
+    return str; //Retornamos el puntero.
 }
 
 char* Paquetes::GenerarLatitud(){
+    //Definimos cada uno de los arrays junto con su formato
     char latitud[] = "40 00 00";
     char num[] = "0123456789";
     int segundo;
@@ -100,17 +103,18 @@ char* Paquetes::GenerarLongitud(){
 }
 
 char* Paquetes::GenerarDNI(){
+    //Definimos el array con el formato y una copia del mismo
     char DNI[] = "03173882C";
     char DNIf[] = "03173882C";
 
-    for (int i = 0; i < 8; i++){
+    for (int i = 0; i < 8; i++){ //Por cada posición generamos un numero aleatorio entre las 8 posiciones.
         DNIf[i] = DNI[rand() % 8];
     }
 
-    char *str = new char[9];
-    strcpy(str,DNIf);
+    char *str = new char[9]; //Rservamos un esapcio de memoria suficiente para almacenar el array del DNI.
+    strcpy(str,DNIf); //Copiamos la información del array DNI en el espacio reservado apuntado por str.
 
-    return str;
+    return str; //Retornamos el puntero.
 }
 
 void Paquetes::setCodigoID(char* _codigoID)

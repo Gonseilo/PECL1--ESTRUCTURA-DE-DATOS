@@ -84,7 +84,7 @@
 	<iomanip>
 	"Pilas.h"
 
-1667215455 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\colas.cpp
+1667242777 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\colas.cpp
 	<iostream>
 	<iomanip>
 	"Colas.h"
@@ -93,7 +93,7 @@
 1667212004 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\colas.h
 	"Paquetes.h"
 
-1667163655 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
+1667243877 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
 
 1667163656 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\muelles.cpp
 	<iostream>
@@ -102,7 +102,7 @@
 
 1667163656 c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\include\muelles.h
 
-1667163655 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\paquetes.cpp
+1667242777 source:c:\users\bonba\documents\github\pecl1--estructura-de-datos\pecl1--estructura de datos\src\paquetes.cpp
 	<iostream>
 	"Paquetes.h"
 	"string.h"

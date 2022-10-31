@@ -59,7 +59,7 @@ void Colas::PrintEnviado(Paquete* temp){ // Esta función tiene el mismo algoritm
     cout << "||==================================================================||\n\n" << endl;
 }
 
-Paquete* Colas::Dequeue(Paquete* temp){ ////Pasamos por parámetro un puntero temporal que apunte a una estructura paquete.
+Paquete* Colas::Dequeue(Paquete* temp){ //Pasamos por parámetro un puntero temporal que apunte a una estructura paquete.
     //Recorremos la lista hasta que temp apunte al ultimo paquete de la cola
     temp = head;
 
@@ -72,15 +72,15 @@ Paquete* Colas::Dequeue(Paquete* temp){ ////Pasamos por parámetro un puntero tem
     return temp;// retornamos el puntero que apunta al ultimo paquete de la cola que hemos eliminado
 }
 
-int Colas::recorrerCola(Paquete* temp){
+int Colas::recorrerCola(Paquete* temp){ // //Pasamos por parámetro un puntero temporal que apunte a una estructura paquete.
     int cont = 0;
     temp = head;
 
-    while(temp != nullptr){
+    while(temp != nullptr){//Recorremos la cola mientras temp no apunte a null y contamos cuantos paquetes hay sumando +1 al contador
         cont++;
         temp = temp->siguiente;
     }
-    return cont;
+    return cont; // Retornamos el contador
 }
 //
 
