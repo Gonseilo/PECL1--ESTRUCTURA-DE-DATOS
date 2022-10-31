@@ -69,14 +69,14 @@ int main(){
 
         c1.Enqueue(temp); //Encolamos el paquete en la cola1
     }
-    c1.Print(aux); //Imprimimos los N1 paquetes en forma de tabla
+    c1.PrintCola(aux); //Imprimimos los N1 paquetes en forma de tabla
 
     while ((c1.head != nullptr) && (c1.rear != nullptr)) { //Mientras haya datos en la cola:
         cout << "\n\n" << setw(26) << "||SELECCIONANDO " << N2 << " PAQUETES DE LA CENTRAL...||" << endl; //Imprimimos la cabezera de selecionar paquetes
         for (int i=0; i < N2; i++){ //Por cada N2:
             c2.Enqueue(c1.Dequeue(aux)); //Encolamos en una cola2 el desencolado de la cola1
         }
-        c2.Print(aux); //Imprimimos la cola2 en forma de tabla
+        c2.PrintCola(aux); //Imprimimos la cola2 en forma de tabla
         cout << "*Distribuyendo cada paquete según sus coordenadas en los muelles...*" << endl; //Cout informativo
         cout << "\n\n\n\n==========================||ESTADO DE SALIDA DE LAS FURGONETAS||========================\n\n\n" << endl; //Cabecera del estado de salida de las furgonetas
 
@@ -162,13 +162,13 @@ int main(){
                 break; //Salimos del switch
             case '1': //Si es 1 imprimimos los estados de las furgonetas de cada muelle imprimiendo sus respectivas pilas
                 cout << "\n\n=============Estado actual de la furgoneta del muelle NO:=============\n" << endl;
-                piNO.print(muelleNO);
+                piNO.printPila(muelleNO);
                 cout << "\n\n=============Estado actual de la furgoneta del muelle NE:=============\n" << endl;
-                piNE.print(muelleNE);
+                piNE.printPila(muelleNE);
                 cout << "\n\n=============Estado actual de la furgoneta del muelle SO:=============\n" << endl;
-                piSO.print(muelleSO);
+                piSO.printPila(muelleSO);
                 cout << "\n\n=============Estado actual de la furgoneta del muelle SE:=============\n" << endl;
-                piSE.print(muelleSE);
+                piSE.printPila(muelleSE);
                 cout << "\n\n" << endl;
                 break; //Salimos del switch
             case '2': //Si es 2 imprimimos los paquetes enviados a cada muelle imprimiendo sus respectivas colas

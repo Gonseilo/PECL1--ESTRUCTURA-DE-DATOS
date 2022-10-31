@@ -7,7 +7,7 @@ class Colas{
         Colas(); //Constructor.
         virtual ~Colas(); //Destructor.
         void Enqueue(Paquete*); //Definición de método que encola paquetes en una cola especifica.
-        void Print(Paquete*); //Definición de método que pega por pantalla una cola especifica con su numero de paquete,ID,coordenadas y DNI.
+        void PrintCola(Paquete*); //Definición de método que pega por pantalla una cola especifica con su numero de paquete,ID,coordenadas y DNI.
         void PrintEnviado(Paquete*); //Definición de método que pega por pantalla una cola especifica indicando su estado de "enviado".
         int recorrerCola(Paquete*); //Definición de método para recorrer mediante un puntero todos los paquetes de una cola especifica.
         Paquete* Dequeue(Paquete*); //Definición  de método que elimina de la cola y guarda un paquete.

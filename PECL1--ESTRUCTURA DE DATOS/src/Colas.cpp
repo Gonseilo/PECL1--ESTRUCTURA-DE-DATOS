@@ -30,7 +30,7 @@ void Colas::Enqueue(Paquete *temp){ //Pasamos por parámetro un puntero temporal 
     }
 }
 
-void Colas::Print(Paquete* temp){ //Pasamos por parámetro un puntero temporal que apunte a una estructura paquete.
+void Colas::PrintCola(Paquete* temp){ //Pasamos por parámetro un puntero temporal que apunte a una estructura paquete.
     temp = head;
 
     //Usamos la funcion setw() para crear espacios y hacer una tabla que almacene los datos del paquete.

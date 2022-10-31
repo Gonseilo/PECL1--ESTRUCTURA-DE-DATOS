@@ -31,7 +31,7 @@ void Pilas::pop(Paquete* pila[]) { //Función pop para sacar el último dato que s
 
 }
 
-void Pilas::print(Paquete* pila[]) { //Función print para imprimir todos los valores de la pila compuesta de punteros a paquetes en forma de tabla
+void Pilas::printPila(Paquete* pila[]) { //Función print para imprimir todos los valores de la pila compuesta de punteros a paquetes en forma de tabla
     cout << "||==================================================================||" << endl; //Parte superior de la tabla
     cout << "|| Estado del paquete | Código ID |" << setw(16) << "Coordenadas" << setw(6) << "|" << setw(7) << "DNI" <<  setw(6) << "||" << endl; //Cabecera con los nombres de los valores de la tabla
     cout << "||--------------------|-----------|---------------------|-----------||" << endl; //Línea divisoria entre la cabecera y los valores

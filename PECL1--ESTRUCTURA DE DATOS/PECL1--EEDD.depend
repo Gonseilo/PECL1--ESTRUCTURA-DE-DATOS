@@ -127,7 +127,7 @@
 	"Pilas.h"
 	"Muelles.h"
 
-1667245098 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
+1667246063 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
 	<iostream>
 	<conio.h>
 	<string.h>
@@ -141,10 +141,10 @@
 
 1667245381 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
 
-1667245381 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\include\colas.h
+1667246010 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\include\colas.h
 	"Paquetes.h"
 
-1667245380 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\include\pilas.h
+1667246063 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\include\pilas.h
 	"Paquetes.h"
 
 1667245381 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\include\muelles.h
@@ -154,8 +154,19 @@
 	"Muelles.h"
 	"string.h"
 
-1667238964 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\src\pilas.cpp
+1667246063 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\src\pilas.cpp
 	<iostream>
 	<iomanip>
 	"Pilas.h"
+
+1667246010 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\src\colas.cpp
+	<iostream>
+	<iomanip>
+	"Colas.h"
+	"Paquetes.h"
+
+1667245900 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\src\paquetes.cpp
+	<iostream>
+	"Paquetes.h"
+	"string.h"
 
