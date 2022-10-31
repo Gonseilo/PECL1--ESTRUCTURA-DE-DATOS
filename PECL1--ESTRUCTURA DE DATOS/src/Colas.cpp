@@ -46,7 +46,7 @@ void Colas::Print(Paquete* temp){ //Pasamos por parámetro un puntero temporal qu
     cout << "||==================================================================||\n" << endl;
 }
 
-void Colas::PrintEnviado(Paquete* temp){
+void Colas::PrintEnviado(Paquete* temp){ // Esta función tiene el mismo algoritmo
     temp = head;
 
     cout << "||==================================================================||" << endl;
@@ -59,16 +59,17 @@ void Colas::PrintEnviado(Paquete* temp){
     cout << "||==================================================================||\n\n" << endl;
 }
 
-Paquete* Colas::Dequeue(Paquete* temp){
+Paquete* Colas::Dequeue(Paquete* temp){ ////Pasamos por parámetro un puntero temporal que apunte a una estructura paquete.
+    //Recorremos la lista hasta que temp apunte al ultimo paquete de la cola
     temp = head;
 
-    if (head != nullptr && head == rear){
+    if (head != nullptr && head == rear){ // Si solo hay un paquete se vacia la cola
         head = rear = nullptr;
     }
-    else{
+    else{ //Si hay mas de un paquete head apunta al siguiente paquete del que queremos eliminar apuntado por temp
         head = temp->siguiente;
     }
-    return temp;
+    return temp;// retornamos el puntero que apunta al ultimo paquete de la cola que hemos eliminado
 }
 
 int Colas::recorrerCola(Paquete* temp){
