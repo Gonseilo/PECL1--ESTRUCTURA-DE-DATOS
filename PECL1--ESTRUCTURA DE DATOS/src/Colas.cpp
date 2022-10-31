@@ -82,5 +82,3 @@ int Colas::recorrerCola(Paquete* temp){ // //Pasamos por parámetro un puntero te
     }
     return cont; // Retornamos el contador
 }
-//
-

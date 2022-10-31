@@ -127,3 +127,35 @@
 	"Pilas.h"
 	"Muelles.h"
 
+1667245098 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\main.cpp
+	<iostream>
+	<conio.h>
+	<string.h>
+	<ctime>
+	<stdio.h>
+	<iomanip>
+	"Paquetes.h"
+	"Colas.h"
+	"Pilas.h"
+	"Muelles.h"
+
+1667245381 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\include\paquetes.h
+
+1667245381 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\include\colas.h
+	"Paquetes.h"
+
+1667245380 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\include\pilas.h
+	"Paquetes.h"
+
+1667245381 c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\include\muelles.h
+
+1667238964 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\src\muelles.cpp
+	<iostream>
+	"Muelles.h"
+	"string.h"
+
+1667238964 source:c:\users\ivanl\onedrive\escritorio\pecl1--estructura-de-datos\pecl1--estructura-de-datos\pecl1--estructura de datos\src\pilas.cpp
+	<iostream>
+	<iomanip>
+	"Pilas.h"
+

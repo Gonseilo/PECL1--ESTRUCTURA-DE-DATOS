@@ -15,7 +15,5 @@ class Pilas{
     protected:
     private:
 };
-//
-
 
 #endif // PILAS_H

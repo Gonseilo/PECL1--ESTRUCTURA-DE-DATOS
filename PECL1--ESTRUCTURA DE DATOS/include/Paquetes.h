@@ -47,7 +47,5 @@ class Paquetes{
         char* longitud;
         char* DNI;
 };
-//
-
 
 #endif // PAQUETES_H

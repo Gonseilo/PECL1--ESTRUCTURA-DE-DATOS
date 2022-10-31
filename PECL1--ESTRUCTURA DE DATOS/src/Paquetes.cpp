@@ -157,5 +157,3 @@ char* Paquetes::getDNI()
 {
     return DNI;
 }
-//
-
