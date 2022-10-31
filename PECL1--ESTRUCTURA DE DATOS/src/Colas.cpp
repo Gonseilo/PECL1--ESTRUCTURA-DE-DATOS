@@ -14,33 +14,36 @@ Colas::~Colas(){
 }
 
 int contCola;
+//Inicializamos los atributos globales "head" y "rear" apuntando a null, es decir, la cola esta vacía.
 Paquete *head = nullptr;
 Paquete *rear = nullptr;
 
-void Colas::Enqueue(Paquete *temp){
-    temp->siguiente = nullptr;
+void Colas::Enqueue(Paquete *temp){ //Pasamos por parámetro un puntero temporal que apunte a una estructura paquete.
+    temp->siguiente = nullptr; //De momento el puntero del paquete apuntara a null.
 
-    if (head == nullptr && rear == nullptr){
+    if (head == nullptr && rear == nullptr){ //Si la cola esta vacía; este primer paquete que entra la cola se define como el "head" y el "rear".
         head = rear = temp;
     }
-    else{
+    else{ // Si la cola no esta vacía, es decir, hay al menos un paquete, el paquete se almacena al final de la cola y de define como el "rear".
         rear->siguiente = temp;
         rear = temp;
     }
 }
 
-void Colas::Print(Paquete* temp){
+void Colas::Print(Paquete* temp){ //Pasamos por parámetro un puntero temporal que apunte a una estructura paquete.
     temp = head;
+
+    //Usamos la funcion setw() para crear espacios y hacer una tabla que almacene los datos del paquete.
 
     cout << "||==================================================================||" << endl;
     cout << "|| Número del paquete | Código ID |" << setw(16) << "Coordenadas" << setw(6) << "|" << setw(7) << "DNI" <<  setw(6) << "||" << endl;
     cout << "||--------------------|-----------|---------------------|-----------||" << endl;
-    while(temp != nullptr){
-        contCola ++;
+    while(temp != nullptr){ //Mientras temp no llegue al final de la cola, se pega por pantalla la información del paquete que este apuntando en la cola.
+        contCola ++; //En cada vuelta del bucle sumamos +1 al contador para almacenar que numero de paquete es el que se pega por pantalla.
         cout << "||" << setw(11) << contCola << setw(10) << "|" << setw(9) << temp->informacion.codigoID << setw(3) << "|" << setw(9) << temp->informacion.coordenadas.latitud << setw(11) << temp->informacion.coordenadas.longitud << setw(2) << "|" << setw(10) << temp->informacion.DNI << setw(3) << "||" << endl;
-        temp = temp->siguiente;
+        temp = temp->siguiente; //En cada vuelta del bucle una vez ha pegado por pantalla información del paquete, avanza al siguiente en la cola.
     }
-    cout << "||==================================================================||\n\n" << endl;
+    cout << "||==================================================================||\n" << endl;
 }
 
 void Colas::PrintEnviado(Paquete* temp){
